@@ -1,0 +1,23 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://www.google.com'
+      goutte:    ~
+      selenium2:
+
+
+chrome:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://www.google.com'
+      goutte:    ~
+      selenium2:
+        browser: chrome
+
+safari:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://www.google.com'
+      goutte:    ~
+      selenium2:
+        browser: safari
